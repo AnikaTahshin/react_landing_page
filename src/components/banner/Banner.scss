@@ -1,0 +1,46 @@
+$small: 12px;
+$medium: 18px;
+$large: 64px;
+
+.hero {
+  background: linear-gradient(231deg, #7de1ef 15.49%, #d3f6fb 84.94%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.leftText {
+  text-wrap: wrap;
+}
+.p1 {
+  font-size: $small;
+  font-weight: 500;
+}
+.p2 {
+  font-size: $large;
+  font-weight: 800;
+}
+.p3 {
+  font-size: $medium;
+  font-weight: 400;
+}
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  width: 145px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.rightDiv img {
+  width: 390px;
+  height: 390px;
+  background-color: #fff;
+  border-radius: 200px;
+  border: 20px solid rgba(32, 98, 255, 0.4);
+}
